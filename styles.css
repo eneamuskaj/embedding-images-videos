@@ -1,33 +1,59 @@
 .body {
-  background-color: grey;
   padding: 1em;
   display: grid;
   grid-template-columns: 3fr 1fr;
   column-gap: 1em;
   row-gap: 1em;
-  grid-auto-rows: minmax(100px, auto);
-}
-.navigation {
-  background-color: blue;
 }
 
 .video {
-  background-color: red;
+  background-color: rgb(255, 255, 255);
 }
 
 .comments {
-  background-color: saddlebrown;
+}
+.comment-img {
+  display: block;
+  float: left;
+  padding: 10px;
+}
+.comment-date {
+  padding-top: 10px;
+}
+.comment-text {
+  padding-left: 10px;
+}
+.like-img {
+  width: 20px;
 }
 
+.dislike-img {
+  width: 20px;
+}
+
+.youtube-logo {
+  width: 100px;
+  justify-self: center;
+}
 .suggestions {
-  background-color: sandybrown;
+  background-color: rgb(255, 255, 255);
   display: grid;
   grid-template-columns: 1fr;
   column-gap: 1em;
   grid-auto-rows: minmax(100px, auto);
 }
 
-.suggestions > p {
-  border: black 1px solid;
-  padding: 1em;
+/* Add a black background color to the top navigation */
+.navigation {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navigation a {
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
