@@ -1,0 +1,33 @@
+.body {
+  background-color: grey;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 1em;
+  row-gap: 1em;
+  grid-auto-rows: minmax(100px, auto);
+}
+.navigation {
+  background-color: blue;
+}
+
+.video {
+  background-color: red;
+}
+
+.comments {
+  background-color: saddlebrown;
+}
+
+.suggestions {
+  background-color: sandybrown;
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 1em;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.suggestions > p {
+  border: black 1px solid;
+  padding: 1em;
+}
